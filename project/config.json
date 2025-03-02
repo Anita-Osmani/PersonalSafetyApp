@@ -1,0 +1,12 @@
+{
+  "projectName": "Your Project Name",
+  "version": "1.0.0",
+  "settings": {
+    "option1": true,
+    "option2": "value"
+  },
+  "paths": {
+    "source": "./src",
+    "output": "./dist"
+  }
+}
