@@ -4,19 +4,20 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
+import { IconName } from 'lucide-react-native';
 
 import { Chrome as Home, MapPin, Phone, TriangleAlert as AlertTriangle, Activity } from 'lucide-react-native';
 
 // Importo ThemeProvider dhe useTheme
-import { ThemeProvider, useTheme } from './project/ThemeContext';
+import { ThemeProvider, useTheme } from './ThemeContext';
 
 // Importo skenat nga folderi screens
-import HomeScreen from './project/screens/homescreen';
-import EmergencyContact from './project/screens/emergencycontact';
-import SmartTracking from './project/screens/smarttracking';
-import SOSScreen from './project/screens/sosscreen';
-import StatusScreen from './project/screens/statusscreen';
-import MapScreen from './project/screens/MapScreen'; // Importo MapScreen
+import HomeScreen from './screens/homescreen';
+import EmergencyContact from './screens/emergencycontact';
+import SmartTracking from './screens/smarttracking';
+import SOSScreen from './screens/sosscreen';
+import StatusScreen from './screens/statusscreen';
+import MapScreen from './screens/MapScreen'; // Importo MapScreen
 
 const Tab = createBottomTabNavigator();
 
